@@ -1,6 +1,6 @@
 # # Text & Scrolling Views (1.3)
 
-Link to this codelab is [here](https://developer.android.com/codelabs/android-training-text-and-scrolling-views?index=..%2F..%2Fandroid-training#0).
+Link to this Codelab is [here](https://developer.android.com/codelabs/android-training-text-and-scrolling-views?index=..%2F..%2Fandroid-training#0).
 
 This app displays a scrollable TextView (a magazine article).
 
