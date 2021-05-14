@@ -20,6 +20,6 @@ This app displays a scrollable TextView (a magazine article).
 
 ### Videos of the application:
 
-- [Scrolling View](https://user-images.githubusercontent.com/72591283/118229146-1f262b80-b4a9-11eb-850f-58f8d6d8c197.mp4)
+- [Scrolling View](https://user-images.githubusercontent.com/72591283/118230496-657c8a00-b4ab-11eb-9771-fc82032054e7.mp4)
   
-- [Opening Web Link](https://user-images.githubusercontent.com/72591283/118229108-0a499800-b4a9-11eb-9ca2-b1a341f78c07.mp4)
+- [Opening Web Link](https://user-images.githubusercontent.com/72591283/118230489-61506c80-b4ab-11eb-847c-aac863816bc4.mp4)
