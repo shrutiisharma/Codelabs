@@ -1,30 +1,25 @@
-# Interactive UI (1.2 Part-A)
+# # Text & Scrolling Views (1.3)
 
-Link to this codelab is [here](https://developer.android.com/codelabs/android-training-layout-editor-part-a?index=..%2F..%2Fandroid-training#0).
+Link to this codelab is [here](https://developer.android.com/codelabs/android-training-text-and-scrolling-views?index=..%2F..%2Fandroid-training#0).
 
+This app displays a scrollable TextView (a magazine article).
 
+### Things I learnt:
 
-It displays two Buttons and a TextView. 
+- How to use XML code to add multiple `TextView` elements.
 
-- Pressing the TOAST button shows a Toast. 
+- How to use XML code to define a scrolling `View`.
 
--  Pressing the COUNT button increases the displayed mCount.
+- How to display free-form text with some HTML formatting tags.
 
+- How to style the `TextView` background color and text color.
 
+- How to include a web link in the text.
 
-### Install the app with [this](https://github.com/shrutiisharma/Codelabs/releases/download/1.2PartA/app-debug.apk) link.
+### Install the app with [this](https://github.com/shrutiisharma/Codelabs/releases/download/1.3/app-debug.apk) link.
 
-### [Video](https://user-images.githubusercontent.com/72591283/118124063-b12f2500-b412-11eb-930a-1e70f29239bc.mp4) of the application.
+### Videos of the application:
 
-
-
-### More Previews:
-
-<img src="https://user-images.githubusercontent.com/72591283/118124050-aecccb00-b412-11eb-94c2-5d6cd34660d4.jpg" title="" alt="Screenshot_2021-05-13-17-15-39-36_e7468760fead2db197506a0f3448409d" width="189">
-
-
-<img src="https://user-images.githubusercontent.com/72591283/118124068-b3917f00-b412-11eb-84c5-a09e7bc0d3cc.jpg" title="" alt="Screenshot_2021-05-13-17-15-30-53" width="191">
-
-
-
-<img src="https://user-images.githubusercontent.com/72591283/118124061-b0968e80-b412-11eb-9d8c-1dc0d3d3c9f9.jpg" title="" alt="Screenshot_2021-05-13-17-15-50-40_e7468760fead2db197506a0f3448409d" width="191">
+- [Scrolling View](https://user-images.githubusercontent.com/72591283/118229146-1f262b80-b4a9-11eb-850f-58f8d6d8c197.mp4)
+  
+- [Opening Web Link](https://user-images.githubusercontent.com/72591283/118229108-0a499800-b4a9-11eb-9ca2-b1a341f78c07.mp4)
