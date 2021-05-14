@@ -18,6 +18,7 @@ This app displays a scrollable TextView (a magazine article).
 
 ### Install the app with [this](https://github.com/shrutiisharma/Codelabs/releases/download/1.3/app-debug.apk) link.
 
+
 ### Videos of the application:
 
 - [Scrolling View](https://user-images.githubusercontent.com/72591283/118230496-657c8a00-b4ab-11eb-9771-fc82032054e7.mp4)
