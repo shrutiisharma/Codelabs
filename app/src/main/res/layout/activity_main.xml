@@ -1,48 +1,127 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!-- for Heading -->
+
     <TextView
-        android:id="@+id/article_heading"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/design_default_color_primary"
-        android:padding="@dimen/padding_regular"
-        android:text="@string/article_title"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/output"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/gray"
+        android:gravity="center"
+        android:text="@string/initial_count"
+        android:textAlignment="center"
         android:textColor="@color/white"
-        android:textStyle="bold" />
+        android:textSize="200sp"
+        app:layout_constraintBottom_toTopOf="@+id/clrBtnsConstraintLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- for sub heading -->
-    <TextView
-        android:id="@+id/article_subheading"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clrBtnsConstraintLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/article_heading"
-        android:padding="@dimen/padding_regular"
-        android:text="@string/article_subtitle"
-        android:textAppearance="@style/TextAppearance.AppCompat" />
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/utilBtnConstraintLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/output">
 
-    <!-- implementing scroll view -->
-    <!-- only one view can be placed inside scroll view, be it view group (eg. Linear Layout) or a single view (eg. text view)  -->
-    <ScrollView
-        android:layout_width="wrap_content"
+        <Button
+            android:id="@+id/blackBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:onClick="setBlackClrBackground"
+            android:text="@string/black"
+            app:layout_constraintEnd_toStartOf="@+id/redBtn"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/redBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:onClick="setRedClrBackground"
+            android:text="@string/red"
+            app:layout_constraintEnd_toStartOf="@+id/blueBtn"
+            app:layout_constraintStart_toEndOf="@+id/blackBtn"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/blueBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:onClick="setBlueClrBackground"
+            android:text="@string/blue"
+            app:layout_constraintEnd_toStartOf="@+id/greenBtn"
+            app:layout_constraintStart_toEndOf="@+id/redBtn"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/greenBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:onClick="setGreenClrBackground"
+            android:text="@string/green"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/blueBtn"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/utilBtnConstraintLayout"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/article_subheading">
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
 
-        <!-- for content -->
-        <TextView
-            android:id="@+id/article"
+        <Button
+            android:id="@+id/countBtn"
+            android:onClick="incCount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:autoLink="web"
-            android:lineSpacingExtra="@dimen/line_spacing"
-            android:padding="@dimen/padding_regular"
-            android:text="@string/article_text" />
+            android:layout_marginStart="60dp"
+            android:backgroundTint="#E0E0E0"
+            android:text="@string/count"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-    </ScrollView>
-</RelativeLayout>
+        <Button
+            android:id="@+id/resetBtn"
+            android:onClick="resetOutput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E0E0E0"
+            android:text="@string/reset"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.579"
+            app:layout_constraintStart_toEndOf="@+id/countBtn"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
