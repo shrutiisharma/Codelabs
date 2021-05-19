@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
-        android:text="Singapore"
+        android:text="@string/singapore"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/singaporeImg"
@@ -46,7 +46,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
         android:labelFor="@+id/cameraEdit"
-        android:text="Camera"
+        android:text="@string/camera"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/heading" />
 
@@ -57,7 +57,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
         android:labelFor="@+id/settingsEdit"
-        android:text="Settings"
+        android:text="@string/settings"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cameraTV"/>
 
@@ -65,7 +65,7 @@
         android:id="@+id/cameraEditText"
         android:layout_width="214dp"
         android:layout_height="wrap_content"
-        android:text="Leica M Typ 240"
+        android:text="@string/cameraInput"
         app:layout_constraintBaseline_toBaselineOf="@+id/cameraTV"
         app:layout_constraintEnd_toEndOf="@+id/settingsEditText"
         app:layout_constraintStart_toStartOf="@+id/settingsEditText" />
@@ -75,7 +75,7 @@
         android:layout_width="214dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:text="f/4 16s ISO 200"
+        android:text="@string/settingsInput"
         app:layout_constraintBaseline_toBaselineOf="@+id/settingsTV"
         app:layout_constraintStart_toEndOf="@+id/settingsTV" />
 
@@ -97,7 +97,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="24dp"
-        android:text="Upload"
+        android:text="@string/upload"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -106,7 +106,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
-        android:text="Discard"
+        android:text="@string/discard"
         app:layout_constraintBaseline_toBaselineOf="@+id/uploadBtn"
         app:layout_constraintEnd_toStartOf="@+id/uploadBtn" />
 </androidx.constraintlayout.widget.ConstraintLayout>
