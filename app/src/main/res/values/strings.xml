@@ -8,4 +8,11 @@
     <string name="count">Count</string>
     <string name="reset">Reset</string>
     <string name="singapore_description">Singapore (/ˈsɪŋ(ɡ)əpɔːr/ (About this soundlisten)), officially the Republic of Singapore, is a sovereign island city-state in maritime Southeast Asia. It lies about one degree of latitude (137 kilometres or 85 miles) north of the equator, off the southern tip of the Malay Peninsula, bordering the Straits of Malacca to the west, the Riau Islands (Indonesia) to the south, and the South China Sea to the east.</string>
+    <string name="singapore">Singapore</string>
+    <string name="camera">Camera</string>
+    <string name="settings">Settings</string>
+    <string name="cameraInput">Leica M Typ 240</string>
+    <string name="settingsInput">f/4 16s ISO 200</string>
+    <string name="discard">Discard</string>
+    <string name="upload">Upload</string>
 </resources>
