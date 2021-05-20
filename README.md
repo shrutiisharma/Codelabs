@@ -1,6 +1,6 @@
 # Constraint Layout 2
 
-Link to this Codelab is [here](https://developer.android.com/codelabs/kotlin-android-training-constraint-layout#1).
+Link to this Codelab is [here](https://github.com/shrutiisharma/Codelabs/releases/download/constraintLayout2/app-debug.apk).
 
 ### Install the app with [this](https://github.com/shrutiisharma/Codelabs/releases/download/constraintLayout1/app-debug.apk) link.
 
