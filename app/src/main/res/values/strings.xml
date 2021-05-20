@@ -2,9 +2,7 @@
     <string name="app_name">Constraint Layout</string>
     <string name="initial_count">0</string>
     <string name="black">Black</string>
-    <string name="red">Red</string>
     <string name="blue">Blue</string>
-    <string name="green">Green</string>
     <string name="count">Count</string>
     <string name="reset">Reset</string>
     <string name="singapore_description">Singapore (/ˈsɪŋ(ɡ)əpɔːr/ (About this soundlisten)), officially the Republic of Singapore, is a sovereign island city-state in maritime Southeast Asia. It lies about one degree of latitude (137 kilometres or 85 miles) north of the equator, off the southern tip of the Malay Peninsula, bordering the Straits of Malacca to the west, the Riau Islands (Indonesia) to the south, and the South China Sea to the east.</string>
@@ -15,4 +13,14 @@
     <string name="settingsInput">f/4 16s ISO 200</string>
     <string name="discard">Discard</string>
     <string name="upload">Upload</string>
+    <string name="box_1">Box 1</string>
+    <string name="box_2">Box 2</string>
+    <string name="box_5">Box 5</string>
+    <string name="box_4">Box 4</string>
+    <string name="how_to_play">How to play?</string>
+    <string name="tap_the_boxes_amp_buttons"><![CDATA[Tap the boxes & buttons!]]></string>
+    <string name="yellow">Yellow</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="box_3">Box 3</string>
 </resources>
