@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Constraint Layout</string>
+    <string name="app_name">ColorMyViews</string>
     <string name="initial_count">0</string>
     <string name="black">Black</string>
     <string name="blue">Blue</string>
